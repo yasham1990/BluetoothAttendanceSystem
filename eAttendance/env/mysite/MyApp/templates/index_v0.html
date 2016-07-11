@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://msse.sjsu.edu/msse-program-requirements -->
+<html lang="en" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><!--<![endif]-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Jose State University | e-Attendance System</title>
+<style>
+@import url("https://msse.sjsu.edu/sites/all/modules/ckeditor/css/ckeditor.css?o0te2u");
+</style>
+<style>
+@import url("https://msse.sjsu.edu/sites/all/themes/sjsu/assets/css/sjsu-bootstrap.css?o0te2u");
+@import url("https://msse.sjsu.edu/sites/all/themes/sjsu/assets/css/sjsu.css?o0te2u");
+@import url("https://msse.sjsu.edu/sites/all/themes/sjsu/assets/css/sjsu-bootstrap.css?o0te2u");
+@import url("https://msse.sjsu.edu/sites/all/themes/sjsu/assets/css/sjsu.css?o0te2u");
+@import url("https://msse.sjsu.edu/sites/all/themes/sjsu/assets/css/sjsu-drupal.css?o0te2u");
+</style>
+
+
+
+
+
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #A3C8E4;
+    color: black;
+}
+
+
+
+
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background: transparent; 
+}
+
+::-moz-selection {
+    background: transparent; 
+}
+
+.wrapper-demo {
+    margin: 60px 0 0 0;
+    *zoom: 1;
+    font-weight: 400;
+}
+
+.wrapper-demo:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* DEMO 3 */
+
+.wrapper-dropdown-3 {
+    /* Size and position */
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+
+    /* Styles */
+    background: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+
+    /* Font settings */
+    font-weight: bold;
+    color: #000000;
+}
+
+.wrapper-dropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #8aa8bd transparent;
+}
+
+.wrapper-dropdown-3 .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 140%;
+    left: 0;
+    right: 0;
+
+    /* Styles */
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    list-style: none;
+
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wrapper-dropdown-3 .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;    
+}
+
+.wrapper-dropdown-3 .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+.wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #8aa8bd;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown-3 .dropdown li i {
+    float: right;
+    color: inherit;
+}
+
+.wrapper-dropdown-3 .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+/* Hover state */
+
+.wrapper-dropdown-3 .dropdown li:hover a {
+    background: #f3f8f8;
+}
+
+/* Active state */
+
+.wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* No CSS3 support */
+
+.no-opacity       .wrapper-dropdown-3 .dropdown,
+.no-pointerevents .wrapper-dropdown-3 .dropdown {
+    display: none;
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+
+.no-opacity       .wrapper-dropdown-3.active .dropdown,
+.no-pointerevents .wrapper-dropdown-3.active .dropdown {
+    display: block;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body class="not-front not-logged-in one-sidebar sidebar-second page-node-30 node-type-page section-msse-program-requirements">
+
+<div id="container" class="container">
+  <div id="main" class="row">
+    <div id="banner" class="hidden-print hidden-xs">
+      <div id="monogram" class="text-hide">
+       
+      </div> <!-- #monogram -->
+    </div> <!-- #banner -->
+    <div id="frame">
+        <div class="clear"></div>
+    <header class="row nomargins">
+  <nav class="navbar navbar-default hidden-print" role="navigation">
+    <div id="top" class="navbar-header col-sm-12">
+      <div class="row nomargins">
+        <div class="col-xs-10 col-sm-9 nopadding">
+          <h1>
+            
+                          San Jose State University                        
+          </h1>
+          <h2 class="color-proud-slate">
+            e-Attendance System
+                        
+                      </h2>
+        </div>
+        
+         
+      </div>
+    </div>
+         
+      </nav>
+ 
+</header>
+ <div class="col-xs-10 col-sm-9 nopadding">
+
+          <h3 class="color-proud-slate">
+            Select Class and Date to view the Attendance
+                        
+                      </h3>
+                      
+        </div>
+	
+ <form method="post">
+{% csrf_token %}
+    <table>
+<tr>
+<th>Class</th>
+<th>Date</th>
+<th>Attendance</th>
+</tr>
+<tr>
+<td>
+<select name="subject" class="wrapper-dropdown-3">
+    {% for classdata in classdata %}	
+  <option value="{{classdata.classid}}">{{classdata.classid}}</option>
+    {% endfor %}
+</select>
+</td>
+<td>
+
+<input type="date" name="classdate">
+
+
+</td>
+<td>
+<select name="attendance" class="wrapper-dropdown-3">
+	<option value="all">All</option>
+  <option value="absent">Absent</option>
+	<option value="present">Present</option>
+</select>
+<button type="submit" class="btn bgcolor-proud-blue" name="op" value="Search"><span class="icon search color-white"></span></button>
+</td>
+</tr>
+</table>
+
+</form>
+
+{% if studentdata %}
+
+<table>
+        <tr>
+        	<th>SJSU Id</th>
+            <th>Name</th>
+            
+            <th>Subject</th>
+            <th>Lecture Date</th>
+            <th>Check In Time</th>
+            <th>Attendance</th>
+        </tr>
+    {% for user in studentdata %}
+        {% if attendance == "all" %}	
+    	<tr>
+    		<td>{{user.0}}</td>
+    		<td>{{user.1}}</td>
+    		<td>{{user.2}}</td>
+    		<td>{{user.4}}</td>
+    		<td>{{user.3}}</td>
+        
+            {% if user.5 == 1 %}
+	    	<td>Present</td>
+	        {% else %}
+	   	 	<td>Absent</td>
+		    {% endif %}
+		    </tr>
+		{% elif attendance == "absent" and user.5 == "0" %}
+		<tr>
+    		<td>{{user.0}}</td>
+    		<td>{{user.1}}</td>
+    		<td>{{user.2}}</td>
+    		<td>{{user.4}}</td>
+    		<td>{{user.3}}</td>
+	   	 	<td>Absent</td>
+		    </tr>
+        {% elif attendance == "present" and user.5 == 1 %}
+		<tr>
+    		<td>{{user.0}}</td>
+    		<td>{{user.1}}</td>
+    		<td>{{user.2}}</td>
+    		<td>{{user.4}}</td>
+    		<td>{{user.3}}</td>
+	   	 	<td>Present</td>
+		    </tr>
+		{% endif %}   
+    {% endfor %}
+</table>
+{% else %}
+    <p>No records found</p>
+{% endif %}
+
+ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+    
+    </div> <!-- #frame -->
+  </div> <!-- #main -->
+</div> <!-- #container -->
+
+
+</body></html>

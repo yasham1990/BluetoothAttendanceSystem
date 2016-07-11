@@ -1,0 +1,16 @@
+<form method="post">
+    {% csrf_token %}
+    <label>Name: </label>
+    <input name="sname">
+    <br>
+    <label>SJSU Id: </label>
+    <input name="sid">
+    <br>
+    <label>Email: </label>
+    <input name="email">
+    <br>
+    <label>Subject: </label>
+    <input name="subject">
+    <br>
+    <input type="submit" value="Submit">
+</form>
